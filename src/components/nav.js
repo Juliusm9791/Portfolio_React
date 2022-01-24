@@ -21,7 +21,7 @@ const Nav = () => {
         <MDBNavbarToggler onClick={() => toggleOpen(!navOpen)} />
         <MDBCollapse id="navbarCollapse3" isOpen={navOpen} navbar>
           <MDBNavbarNav right>
-            <MDBNavItem active>
+            <MDBNavItem >
               <MDBNavLink to="aboutme" onClick={closeNav}>About Me</MDBNavLink>
             </MDBNavItem>
             <MDBNavItem >
@@ -36,7 +36,7 @@ const Nav = () => {
               <a className='nav-link'
                 href='https://github.com/Juliusm9791' target='_blank'>
                 <strong>
-                  <MDBIcon fab icon='github' />
+                  <MDBIcon fab icon='github'/>
                 </strong>
               </a><span>GitHub</span>
             </MDBTooltip>

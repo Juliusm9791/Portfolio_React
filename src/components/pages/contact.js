@@ -7,7 +7,7 @@ const FormPage = () => {
    
         <MDBCol md="5" className="mt-4 mb-5">
           <form>
-            <p className="h4 text-center mb-4">Send a Message</p>
+            <h1 className="text-center mb-4">Send a Message</h1>
             <label htmlFor="defaultFormContactNameEx" className="grey-text">
               Your name
             </label>
