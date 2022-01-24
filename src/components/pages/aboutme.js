@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 export default function About() {
   return (
     <div>
@@ -7,6 +8,7 @@ export default function About() {
       <p>
       About
       </p>
+
     </div>
   );
 }
