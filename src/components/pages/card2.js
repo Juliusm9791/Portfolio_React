@@ -1,55 +1,22 @@
-import React from "react";
-import { MDBCard, MDBCardTitle, MDBBtn, MDBCardGroup, MDBCardImage, MDBCardText, MDBCardBody } from "mdbreact";
+import React from 'react';
+import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCardText, MDBCol } from 'mdbreact';
 
 const CardExample = () => {
   return (
-    <MDBCardGroup>
-      <MDBCard className='m-2'>
-        <MDBCardImage src="https://mdbootstrap.com/img/Photos/Others/images/49.webp" alt="MDBCard image cap" top hover
-          overlay="white-slight" />
+    <MDBCol>
+      <MDBCard style={{ width: "22rem" }}>
+        <MDBCardImage className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/images/43.webp" waves />
         <MDBCardBody>
-          <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
+          <MDBCardTitle>Card title</MDBCardTitle>
           <MDBCardText>
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
+            Some quick example text to build on the card title and make
+            up the bulk of the card&apos;s content.
           </MDBCardText>
-          <MDBBtn color="primary" size="md">
-            read more
-          </MDBBtn>
+          <MDBBtn href="#">MDBBtn</MDBBtn>
         </MDBCardBody>
       </MDBCard>
-
-      <MDBCard className='m-2'>
-        <MDBCardImage src="https://mdbootstrap.com/img/Photos/Others/images/48.webp" alt="MDBCard image cap" top hover
-          overlay="white-slight" />
-        <MDBCardBody>
-          <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
-          </MDBCardText>
-          <MDBBtn color="primary" size="md">
-            read more
-          </MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-
-      <MDBCard className='m-2'>
-        <MDBCardImage src="https://mdbootstrap.com/img/Photos/Others/images/77.webp" alt="MDBCard image cap" top hover
-          overlay="white-slight" />
-        <MDBCardBody>
-          <MDBCardTitle tag="h5">Panel title</MDBCardTitle>
-          <MDBCardText>
-            Some quick example text to build on the card title and make up
-            the bulk of the card's content.
-          </MDBCardText>
-          <MDBBtn color="primary" size="md">
-            read more
-          </MDBBtn>
-        </MDBCardBody>
-      </MDBCard>
-    </MDBCardGroup>
-  );
+    </MDBCol>
+  )
 }
 
 export default CardExample;
