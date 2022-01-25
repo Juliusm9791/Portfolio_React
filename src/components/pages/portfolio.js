@@ -11,8 +11,6 @@ export default function Portfolio() {
     <MDBContainer className='mt-4 mb-4'>
       <h1 className="text-center mb-4">Portfolio</h1>
       <Card />
-
     </MDBContainer>
-    //  {/* </div> */}
   );
 }
