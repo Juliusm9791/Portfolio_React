@@ -5,14 +5,13 @@ import {
 
 const Nav = () => {
 
-  let [active, setSatge] = useState(false);
+  let [active, setSatge] = useState('/aboutme');
 
   let changeState = () => {
     setSatge(() => {
       return window.location.pathname;
     })
   };
-  console.log(active)
 
   const [navOpen, toggleOpen] = useState(false)
   const closeNav = () => {
