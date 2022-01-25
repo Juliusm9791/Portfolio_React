@@ -19,21 +19,22 @@ export default function About() {
             <div className="card-body">
               <h2 className="card-title"><strong>I'm Julius Markauskas</strong></h2>
               <p className="card-text">
-              Full Stack Web Developer great at time, team, and project management, with broad skills and experience in service and LEAN manufacturing. Experience testing, debugging, quick problem identification and analysis. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines, I am always energetic and eager to learn new skills.
+                Full Stack Web Developer great at time, team, and project management, with broad skills and experience in service and LEAN manufacturing. Experience testing, debugging, quick problem identification and analysis. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines, I am always energetic and eager to learn new skills.
               </p>
               <MDBCol md='12' className='d-flex justify-content-center'>
-              <MDBBtn rounded color='fb'>
-                <MDBIcon size='lg' fab icon='github'></MDBIcon>
-              </MDBBtn>
-
-              <MDBBtn rounded color='tw'>
-                <MDBIcon size='lg' fab icon='linkedin'></MDBIcon>
-              </MDBBtn>
-
-              <MDBBtn rounded color='dribbble'>
-                <MDBIcon size='lg' icon='file-pdf'></MDBIcon>
-              </MDBBtn>
-            </MDBCol>
+                <a className="btn btn-outline-light text-dark mb-4"
+                  href='https://github.com/Juliusm9791' target='_blank'>
+                  <MDBIcon size='lg' fab icon='github'></MDBIcon>
+                </a>
+                <a className="btn btn-outline-light text-dark mb-4"
+                  href='https://www.linkedin.com/in/julius-markauskas-795aa0103/' target='_blank'>
+                  <MDBIcon size='lg' fab icon='linkedin'></MDBIcon>
+                </a>
+                <a className="btn btn-outline-light text-dark mb-4"
+                  href='https://juliusm9791.github.io/Portfolio/assets/pdf/Julius_Markauskas_resume1.pdf' target='_blank'>
+                  <MDBIcon size='lg' icon='file-pdf'></MDBIcon>
+                </a>
+              </MDBCol>
             </div>
           </div>
         </div>
