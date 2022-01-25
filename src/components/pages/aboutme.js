@@ -11,6 +11,7 @@ export default function About() {
           <div className="col-md-4">
             <img
               src="https://www.clearmountainbank.com/wp-content/uploads/2020/04/male-placeholder-image.jpeg"
+              // src='https://media-exp1.licdn.com/dms/image/C5603AQHHvY_CzF_i2g/profile-displayphoto-shrink_200_200/0/1517076701870?e=1648684800&v=beta&t=_13AnBfLuLFwI-pSP-o5qtyG7_ZWhBo7rgTagOLqpuA'
               alt="JM avatar"
               className="img-fluid rounded-start"
             />

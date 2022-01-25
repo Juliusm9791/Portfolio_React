@@ -1,12 +1,14 @@
 {
-  "name": "your-app",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Juliusm9791/Portfolio_React",
   "// If You want to install mdbreact from our GitLab repository, please replace '5.1.0' with gitURL provided here ->": "git+https://oauth2:<YOUR-TOKEN-GOES-HERE>@git.mdbootstrap.com/mdb/react/re-pro.git",
   "dependencies": {
     "axios": "^0.25.0",
     "bootstrap": "^5.1.3",
     "dotenv": "^14.2.0",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "mdb-react-ui-kit": "^2.3.0",
     "mdbreact": "5.1.0",
@@ -15,6 +17,8 @@
     "update": "^0.7.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
