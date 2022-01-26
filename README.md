@@ -29,9 +29,11 @@ SO THAT I can assess whether they're a good candidate for an open position
   This application is deploy to GitHub Pages.  [Portfolio](https://juliusm9791.github.io/Portfolio_React/)
 
   Desktop version of website
+  
   ![Portfolio Desktop](./images/desktop.jpg)
 
   Mobile version of website
+
   ![Portfolio Cell](./images/mobile.jpg)
 
 
