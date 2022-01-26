@@ -32,7 +32,7 @@ SO THAT I can assess whether they're a good candidate for an open position
   ![Portfolio Desktop](./images/desktop.jpg)
 
   Mobile version of website
-  <div align="center">  ![Portfolio Cell](./images/mobile.jpg) </div>
+  ![Portfolio Cell](./images/mobile.jpg)
 
 
 
