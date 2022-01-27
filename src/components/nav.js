@@ -9,9 +9,10 @@ const Nav = () => {
 
   let changeState = () => {
     setSatge(() => {
-      return window.location.pathname;
+      return window.location.hash;
     })
   };
+
 
   const [navOpen, toggleOpen] = useState(false)
   const closeNav = () => {
@@ -28,13 +29,13 @@ const Nav = () => {
       <MDBNavbarToggler onClick={() => toggleOpen(!navOpen)} />
       <MDBCollapse id="navbarCollapse3" isOpen={navOpen} navbar>
         <MDBNavbarNav right>
-          <MDBNavItem onClick={changeState} active={active === '/aboutme'} >
+          <MDBNavItem onClick={changeState} active={active === '#/aboutme'} >
             <MDBNavLink to="aboutme" onClick={closeNav}>About Me</MDBNavLink>
           </MDBNavItem>
-          <MDBNavItem onClick={changeState} active={active === '/portfolio'}>
+          <MDBNavItem onClick={changeState} active={active === '#/portfolio'}>
             <MDBNavLink to="portfolio" onClick={closeNav}>Portfolio</MDBNavLink>
           </MDBNavItem>
-          <MDBNavItem onClick={changeState} active={active === '/contact'}>
+          <MDBNavItem onClick={changeState} active={active === '#/contact'}>
             <MDBNavLink to="contact" onClick={closeNav}>Contact</MDBNavLink>
           </MDBNavItem>
         </MDBNavbarNav>

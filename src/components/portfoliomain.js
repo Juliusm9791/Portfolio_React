@@ -3,7 +3,7 @@ import Nav from './nav';
 import About from './pages/aboutme';
 import Portfolio from './pages/portfolio';
 import Contact from './pages/contact';
-import { BrowserRouter as Router } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom';
 import { Route, Switch } from 'react-router-dom';
 
 const Portfoliomain = () => {
