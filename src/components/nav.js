@@ -3,6 +3,8 @@ import {
   MDBNavbar, MDBNavbarBrand, MDBTooltip, MDBNavbarNav, MDBNavItem, MDBNavLink, MDBNavbarToggler, MDBCollapse, MDBIcon,
 } from "mdbreact";
 
+import styles from './pages/card2.css'
+
 const Nav = () => {
 
   let [active, setSatge] = useState('/aboutme');
@@ -21,15 +23,15 @@ const Nav = () => {
 
   return (
     <MDBNavbar color="black" dark expand="md">
-      <MDBNavbarBrand>
-        <MDBNavLink className="waves-effect waves-light" to="/">
+      <MDBNavbarBrand onClick={changeState} >
+        <MDBNavLink className="waves-effect waves-light" to="/" className='black' >
           <strong className="white-text font-italic">Hi, I'm Julius Markauskas</strong>
         </MDBNavLink>
       </MDBNavbarBrand>
       <MDBNavbarToggler onClick={() => toggleOpen(!navOpen)} />
       <MDBCollapse id="navbarCollapse3" isOpen={navOpen} navbar>
         <MDBNavbarNav right>
-          <MDBNavItem onClick={changeState} active={active === '#/aboutme'} >
+          <MDBNavItem onClick={changeState} active={active === '#/aboutme'} className={styles.active}>
             <MDBNavLink to="aboutme" onClick={closeNav}>About Me</MDBNavLink>
           </MDBNavItem>
           <MDBNavItem onClick={changeState} active={active === '#/portfolio'}>
