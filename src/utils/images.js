@@ -34,6 +34,11 @@ const images = [
     {
         name: 'Developers_Tech_Blog',
         link: 'https://repository-images.githubusercontent.com/430529132/a54158b0-a483-4bff-ac96-d97d7d550a57'
+        
+    },
+    {
+        name: 'fly-app',
+        link: 'https://repository-images.githubusercontent.com/460514100/8d097572-ec42-4864-91bf-32bfe3ea2647'
     },
 
 ]
