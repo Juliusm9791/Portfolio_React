@@ -20,7 +20,9 @@ export default function About() {
             <div className="card-body">
               <h2 className="card-title"><strong>I'm Julius Markauskas</strong></h2>
               <p className="card-text">
-                Full Stack Web Developer great at time, team, and project management, with broad skills and experience in service and LEAN manufacturing. Experience testing, debugging, quick problem identification and analysis. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines, I am always energetic and eager to learn new skills.
+                Full Stack Web Developer, great at time, team, and project management, with broad skills and experience in service and LEAN manufacturing. Experience testing, debugging, quick problem identification and analysis. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines, and always eager to learn new skills.</p>
+              <p className="card-text">
+              <strong>Developer skils:</strong> JavaScript, Node.js, jQuery, HTML, CSS, MySQL MongoDB, Sequelize, Express.js, Git, APIs, Jest, Bootstrap, Handlebars, React.js, GraphQL.
               </p>
               <MDBCol md='12' className='d-flex justify-content-center'>
                 <a className="btn btn-outline-light text-dark mb-4"
