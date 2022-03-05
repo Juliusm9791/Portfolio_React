@@ -35,13 +35,13 @@ export default function Card() {
 
     const combineRepo = [...repos] || {};
 
-console.log(combineRepo)
+    console.log(combineRepo)
     const renderedCards = combineRepo.map((repo) => {
         if (repo.name !== "Portfolio" && repo.name !== "prework-about-me" && repo.name !== "Readme_Generator" && repo.name !== "Team_Profile_Generator" && repo.name !== "Team_Profile_Generator_HTML" && repo.name !== "Note_Taker" && repo.name !== "Employee_Tracker" && repo.name !== "E-Commerce" && repo.name !== "Social_Network_API" && repo.name !== "Text_Editor" && repo.name !== "Portfolio_React" && repo.name !== "Redux_Store" && repo.name !== "Book_Search_Engine") {
             return (
-                <ReactCardFlipper width="300px" height="550px" behavior="click" levitate={true}>
+                <ReactCardFlipper width="350px" height="600px" behavior="click" levitate={true} key={repo.id}>
                     <div>
-                        <MDBCol  className='p-4' key={repo.id} >
+                        <MDBCol className='p-4'  >
                             <MDBCard>
                                 <a href={repo.homepage} target='_blank'>
                                     <MDBCardImage
@@ -65,14 +65,35 @@ console.log(combineRepo)
                                             <MDBIcon icon='angle-double-right' className='ml-2' />
                                         </h5>
                                     </a>
+                                    <hr className='hr-light' />
+                                    <h6 className='white-text d-flex justify-content-end'>Tecnnology used
+                                        <MDBIcon icon='angle-double-right' className='ml-2' />
+                                    </h6>
                                 </MDBCardBody>
                             </MDBCard>
                         </MDBCol>
                     </div>
                     <div>
-                       <h>Tecnnology used:</h> 
-                       {repo.topics.map((texh) => { return <p>{texh}</p>})}
-                       </div>
+                        <MDBCol className='p-4'  >
+                            <MDBCard>
+                                <MDBCardBody className='elegant-color white-text rounded-bottom'>
+                                    {/* <hr className='hr-light' /> */}
+                                    <MDBCardTitle>Tecnnology used:</MDBCardTitle>
+                                    <hr className='hr-light' />
+                                    <MDBCardText className='white-text'>
+                                        <ul>
+                                            {repo.topics.map((texh) => { return <li>{texh}</li> })}
+                                        </ul>
+                                    </MDBCardText>
+                                    <hr className='hr-light' />
+                                    <h5 className='white-text d-flex justify-content-end'>
+                                        Return
+                                        <MDBIcon icon='angle-double-right' className='ml-2' />
+                                    </h5>
+                                </MDBCardBody>
+                            </MDBCard>
+                        </MDBCol>
+                    </div>
                 </ReactCardFlipper>
             );
         }
