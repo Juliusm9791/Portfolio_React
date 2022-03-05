@@ -78,7 +78,7 @@ const FormPage = () => {
             <label htmlFor="defaultFormContactMessageEx" className="grey-text">
               Your message
             </label>
-            <input type="textarea" id="defaultFormContactMessageEx" 
+            <textarea type="textarea" id="defaultFormContactMessageEx" 
             className="form-control" rows="3" value={text} name="text" onChange={handleInputChange}/>
             <div className="text-center mt-4">
               <MDBBtn color="elegant-color" outline type="submit" onClick={handleFormSubmit}>
