@@ -15,7 +15,7 @@ const Nav = () => {
     })
   };
 
-
+console.log("AAAA")
   const [navOpen, toggleOpen] = useState(false)
   const closeNav = () => {
     toggleOpen(false)
@@ -24,7 +24,7 @@ const Nav = () => {
   return (
     <MDBNavbar color="black" dark expand="md">
       <MDBNavbarBrand onClick={changeState} >
-        <MDBNavLink className="waves-effect waves-light" to="/" className='black' >
+        <MDBNavLink className="waves-effect waves-light black" to="/" >
           <strong className="white-text font-italic">Hi, I'm Julius Markauskas</strong>
         </MDBNavLink>
       </MDBNavbarBrand>

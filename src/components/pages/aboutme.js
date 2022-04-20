@@ -11,7 +11,7 @@ export default function About() {
           <div className="col-md-4">
             <img
               // src="https://www.clearmountainbank.com/wp-content/uploads/2020/04/male-placeholder-image.jpeg"
-              src='https://media-exp1.licdn.com/dms/image/C5603AQHHvY_CzF_i2g/profile-displayphoto-shrink_200_200/0/1517076701870?e=1648684800&v=beta&t=_13AnBfLuLFwI-pSP-o5qtyG7_ZWhBo7rgTagOLqpuA'
+              src='https://media-exp1.licdn.com/dms/image/C5603AQHHvY_CzF_i2g/profile-displayphoto-shrink_400_400/0/1517076701870?e=1655942400&v=beta&t=3LEOu3owP0M3LY6la-uPmSlQiPtIn0PHSwPgpXgqj3U'
               alt="JM avatar"
               className="img-fluid rounded-start"
             />
@@ -20,7 +20,7 @@ export default function About() {
             <div className="card-body">
               <h2 className="card-title"><strong>I'm Julius Markauskas</strong></h2>
               <p className="card-text">
-                Full Stack Web Developer, great at time, team, and project management, with broad skills and experience in service and LEAN manufacturing. Experience testing, debugging, quick problem identification and analysis. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines, and always eager to learn new skills.</p>
+              Full Stack Web Developer and Digital Field Service Engineer with B.S. and M.S. in Computer Science. A fast learner with strong time and project management skills, broad experience in service and LEAN manufacturing. Strong troubleshooting and problem solving skills with an analytical mindset. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines. Top skills: JavaScript, HTML, CSS, and always eager to learn new things.</p>
               <p className="card-text">
               <strong>Developer skils:</strong> JavaScript, Node.js, jQuery, HTML, CSS, MySQL MongoDB, Sequelize, Express.js, Git, APIs, Jest, Bootstrap, Handlebars, React.js, GraphQL.
               </p>
