@@ -40,6 +40,11 @@ const images = [
         name: 'fly-app',
         link: 'https://repository-images.githubusercontent.com/460514100/8d097572-ec42-4864-91bf-32bfe3ea2647'
     },
+    {
+        name: 'materials-trader-2.0',
+        link: 'https://repository-images.githubusercontent.com/488803453/dd002b23-4fbf-43d1-b1c6-8b10a8869754'
+    },
+
 
 ]
 function returnLink(repo) {
