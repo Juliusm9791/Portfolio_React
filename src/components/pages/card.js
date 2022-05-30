@@ -82,7 +82,7 @@ export default function Card() {
                                     <hr className='hr-light' />
                                     <MDBCardText className='white-text'>
                                         <ul>
-                                            {repo.topics.map((texh) => { return <li>{texh}</li> })}
+                                            {repo.topics.map((texh) => { return <li key={texh}>{texh}</li> })}
                                         </ul>
                                     </MDBCardText>
                                     <hr className='hr-light' />

@@ -15,7 +15,6 @@ const Nav = () => {
     })
   };
 
-console.log("AAAA")
   const [navOpen, toggleOpen] = useState(false)
   const closeNav = () => {
     toggleOpen(false)
