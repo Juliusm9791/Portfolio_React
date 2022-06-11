@@ -1,7 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBCol, MDBBtn, MDBIcon } from 'mdbreact';
 
-
+//style={{padding: "25px", borderRadius: "50%"}}
 export default function About() {
   return (
     <MDBContainer className='mt-4 mb-4'>
@@ -9,20 +9,20 @@ export default function About() {
       <div className="card mb-3" >
         <div className="row g-0">
           <div className="col-md-4">
-            <img
+            <img  style={{margin: "25px"}}
               // src="https://www.clearmountainbank.com/wp-content/uploads/2020/04/male-placeholder-image.jpeg"
-              src='https://media-exp1.licdn.com/dms/image/C5603AQHHvY_CzF_i2g/profile-displayphoto-shrink_400_400/0/1517076701870?e=1655942400&v=beta&t=3LEOu3owP0M3LY6la-uPmSlQiPtIn0PHSwPgpXgqj3U'
+              src='https://media-exp1.licdn.com/dms/image/C5603AQEE7uXEfTePCQ/profile-displayphoto-shrink_200_200/0/1654901185826?e=1660176000&v=beta&t=4YVFNr54BJRP49K2XGhSUN5FBqFHVqdbRc2qF5BIalU'
               alt="JM avatar"
-              className="img-fluid rounded-start"
+              className="img-fluid rounded-start rounded-circle border border-light"
             />
           </div>
           <div className="col-md-8">
             <div className="card-body">
               <h2 className="card-title"><strong>I'm Julius Markauskas</strong></h2>
               <p className="card-text">
-              Full Stack Web Developer and Digital Field Service Engineer with B.S. and M.S. in Computer Science. A fast learner with strong time and project management skills, broad experience in service and LEAN manufacturing. Strong troubleshooting and problem solving skills with an analytical mindset. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines. Top skills: JavaScript, HTML, CSS, and always eager to learn new things.</p>
+                Full Stack Web Developer and Digital Field Service Engineer with B.S. and M.S. in Computer Science. A fast learner with strong time and project management skills, broad experience in service and LEAN manufacturing. Strong troubleshooting and problem solving skills with an analytical mindset. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines. Top skills: JavaScript, HTML, CSS, and always eager to learn new things.</p>
               <p className="card-text">
-              <strong>Developer skils:</strong> JavaScript, Node.js, jQuery, HTML, CSS, MySQL MongoDB, Sequelize, Express.js, Git, APIs, Jest, Bootstrap, Handlebars, React.js, GraphQL.
+                <strong>Developer skils:</strong> JavaScript, Node.js, jQuery, HTML, CSS, MySQL MongoDB, Sequelize, Express.js, Git, APIs, Jest, Bootstrap, Handlebars, React.js, GraphQL.
               </p>
               <MDBCol md='12' className='d-flex justify-content-center'>
                 <a className="btn btn-outline-light text-dark mb-4"
