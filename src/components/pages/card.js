@@ -6,7 +6,7 @@ import ReactCardFlipper from "react-card-flipper";
 
 
 export default function Card() {
-    const ignoreList = ["Portfolio_React", "Portfolio", "prework-about-me", "Readme_Generator", "Team_Profile_Generator", "Team_Profile_Generator_HTML", "Note_Taker", "Employee_Tracker", "E-Commerce", "Social_Network_API", "Text_Editor", "Book_Search_Engine", "Redux_Store", "tech-news-java-api", "News-python", "My-School"]
+    const ignoreList = ["Portfolio_React", "Portfolio", "prework-about-me", "Readme_Generator", "Team_Profile_Generator", "Team_Profile_Generator_HTML", "Note_Taker", "Employee_Tracker", "E-Commerce", "Social_Network_API", "Text_Editor", "Book_Search_Engine", "Redux_Store", "tech-news-java-api", "News-python"]
 
     const [repos, getRepos] = useState([]);
 
