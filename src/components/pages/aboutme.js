@@ -20,9 +20,9 @@ export default function About() {
             <div className="card-body">
               <h2 className="card-title"><strong>I'm Julius Markauskas</strong></h2>
               <p className="card-text">
-                Full Stack Web Developer and Digital Field Service Engineer with B.S. and M.S. in Computer Science. A fast learner with strong time and project management skills, broad experience in service and LEAN manufacturing. Strong troubleshooting and problem solving skills with an analytical mindset. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines. Top skills: JavaScript, HTML, CSS, and always eager to learn new things.</p>
+              Full Stack Web Developer and Digital Field Service Engineer with B.S. and M.S. in Computer Science. Expertise in MERN and MEAN stack, deep knowledge, and experience in JavaScript, TypeScript, Node.js, Git, RESTful APIs, Object Oriented Programming. A fast learner with strong time and project management skills, broad experience in service and LEAN manufacturing. Strong troubleshooting and problem-solving skills with an analytical mindset. Ability to adapt in both self-starting and collaborative environments while staying focused on achieving high quality results under strict deadlines. Always eager to learn new skills.</p>
               <p className="card-text">
-                <strong>Developer skils:</strong> JavaScript, Node.js, jQuery, HTML, CSS, MySQL MongoDB, Sequelize, Express.js, Git, APIs, Jest, Bootstrap, Handlebars, React.js, GraphQL.
+                <strong>Skils:</strong> JavaScript, TypeScript, Node.js, React.js, Angular, jQuery, HTML, CSS, SQL, MongoDB, Sequelize, Express.js, Git, APIs, Jest, Bootstrap, Handlebars, GraphQL, AWS S3, Heroku, Adobe Creative Suite, Linux, iTerm, vsCode, Insomnia, Atlassian Jira Software and Confluence.
               </p>
               <MDBCol md='12' className='d-flex justify-content-center'>
                 <a className="btn btn-outline-light text-dark mb-4"
